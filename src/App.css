@@ -2,7 +2,16 @@
   text-align: center;
 }
 
+:root{
+  --primaryColor: #21325e;
+  --primaryHeadingColor: #e2ce36;
+}
+
 body{
   padding: 0;
   margin: 0;
+}
+
+#oneLetter{
+  color: rgb(140, 221, 100);
 }

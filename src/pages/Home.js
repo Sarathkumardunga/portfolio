@@ -2,13 +2,14 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import "../styles/Home.css"
 
 const Home = () => {
   return (
     <div className="home">
       <div className="about">
         <h2>
-          Hi, My Name is <span>S</span>arath
+          Hi, My Name is <span id="oneLetter">S</span>arath
         </h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
@@ -17,8 +18,11 @@ const Home = () => {
           <GitHubIcon />
         </div>
       </div>
+      
       <div className="skills">
-        <h1> Skills</h1>
+        <h1>
+          <span id="oneLetter">S</span>kills
+        </h1>
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
