@@ -9,16 +9,16 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <a href="">
+        <a href="https://www.google.com/">
           <InstagramIcon />
         </a>
-        <a href="">
+        <a href="https://www.google.com/">
           <LinkedInIcon />
         </a>
-        <a href="">
+        <a href="https://github.com/Sarathkumardunga">
           <GitHubIcon />
         </a>
-        <a href="">
+        <a href="https://www.google.com/">
           <EmailIcon />
         </a>
       </div>
