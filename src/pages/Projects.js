@@ -6,13 +6,20 @@ import ProjectItem from '../components/ProjectItem';
 const Projects = () => {
   return (
     <div className="projects">
-      <h1>My Personal Projects</h1>
+      <h1>
+        <span class="oneLetter">M</span>y Personal Projects
+      </h1>
       <div className="projectList">
-        {
-          ProjectList.map((project, idx) => {
-            return <ProjectItem key={idx} name={ project.name } image={ project.image } id={idx} />;
-          })
-        }
+        {ProjectList.map((project, idx) => {
+          return (
+            <ProjectItem
+              key={idx}
+              name={project.name}
+              image={project.image}
+              id={idx}
+            />
+          );
+        })}
       </div>
     </div>
   );

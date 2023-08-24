@@ -6,7 +6,13 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--secondaryColor);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.projects>h1{
+  color: #7e7e7f;
+}
+
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;

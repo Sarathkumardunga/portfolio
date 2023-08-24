@@ -5,7 +5,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import SimCardDownloadIcon from "@mui/icons-material/SimCardDownload";
 import HandshakeIcon from "@mui/icons-material/Handshake";
 import mainPic from "../assets/mainpic.svg";
-import "../styles/Home.css"
+import "../styles/Home.css";
 
 const Home = () => {
   return (
@@ -20,9 +20,29 @@ const Home = () => {
               Aspiring developer, dedicated to crafting innovative solutions
               through coding.
             </p>
-            <LinkedInIcon />
-            <EmailIcon />
-            <GitHubIcon />
+            <a
+              href="https://www.linkedin.com/in/sarath-kumar-dunga-7083021a0"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon />
+            </a>
+
+            <a
+              href="mailto:sarathkumardunga09@gmail.com?"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <EmailIcon />
+            </a>
+
+            <a
+              href="https://github.com/Sarathkumardunga"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon />
+            </a>
           </div>
           {/*     Buttons   */}
           <div className="home-buttons">
