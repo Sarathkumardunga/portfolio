@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Open+Sans&family=Playfair+Display&family=Roboto&family=Varela&display=swap');
 
+.nav-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+#profilepic{
+  align-self: center;
+}
+
+#profilepic>img{
+  max-height: 90px;
+  max-width: 120px;
+  margin-left: 9px;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
 .navbar {
   width: 100%;
   height: 100px;
@@ -69,8 +86,13 @@
   .toggleButton {
     display: flex;
   }
+
   #close a {
     display: none;
+  }
+
+  #profilepic{
+    margin: 0.8rem 40% 1rem 40%;
   }
 }
 
