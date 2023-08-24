@@ -9,8 +9,8 @@ const Projects = () => {
       <h1>My Personal Projects</h1>
       <div className="projectList">
         {
-          ProjectList.map((project, id) => {
-            return <ProjectItem name={ project.name } image={ project.image } />;
+          ProjectList.map((project, idx) => {
+            return <ProjectItem key={idx} name={ project.name } image={ project.image } id={idx} />;
           })
         }
       </div>
