@@ -13,7 +13,7 @@ const Home = () => {
       <div className="top">
         <div className="about">
           <h2>
-            Hi, My Name is <span class="oneLetter">S</span>arath
+            Hi, My Name is <span className="oneLetter">S</span>arath
           </h2>
           <div className="prompt">
             <p>
