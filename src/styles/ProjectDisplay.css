@@ -1,3 +1,13 @@
+#btn-goback{
+  color: rgb(249, 248, 248);
+  background-color: rgb(143, 148, 151);
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: -3rem;
+  outline: 2px solid white;
+  outline-offset: -5px;
+}
+
 .project {
   width: 100vw;
   height: 100%;
