@@ -18,8 +18,8 @@ const ProjectDisplay = () => {
         </p>
         <GitHubIcon />
       </div>
-      <div id="image">
-        <img src={project.image} alt="Project Image" />
+      <div id="im">
+        <img src={project.image} alt="Project" />
       </div>
     </div>
   );

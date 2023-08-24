@@ -24,7 +24,7 @@
   align-self: self-start;
 }
 
-#image{
+#im{
   grid-area: b;
 }
 
@@ -34,7 +34,7 @@
   font-size: 40px;
 }
 
-#image img {
+#im img {
   width: 450;
   height: 350px;
   border-radius: 10px;
@@ -67,7 +67,7 @@
     order: 3;
   }
 
-  #image{
+  #im{
     order: 2;
     align-self: center;
   }
