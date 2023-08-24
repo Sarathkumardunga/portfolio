@@ -57,7 +57,7 @@ const Home = () => {
               </button>
             </a>
             <a
-              href="https://debugg-dot.github.io/Shadow_fiitness/"
+              href="https://www.linkedin.com/in/sarath-kumar-dunga-7083021a0"
               target="_blank"
               rel="noreferrer"
             >

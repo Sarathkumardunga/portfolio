@@ -25,7 +25,11 @@
 }
 
 /* styling of buttons */
-.home-buttons{
+.project-buttons{
+  display:flex;
+  gap: 1rem;
+  font-weight: normal;
+  margin-top: 1rem;
   justify-content: center;
 }
 

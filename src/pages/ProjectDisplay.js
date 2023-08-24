@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useParams } from "react-router-dom"
 import { ProjectList } from '../helpers/ProjectList';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import StreamIcon from "@mui/icons-material/Stream";
+import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import "../styles/ProjectDisplay.css"
 
 const ProjectDisplay = () => {
+  const [isOpened, setIsOpened] = useState(false);
   const { id } = useParams();
   const project = ProjectList[id];
+
   return (
     <div className="project">
       <div id="name">
@@ -18,7 +21,7 @@ const ProjectDisplay = () => {
           <b>Skills: </b> {project.skills}
         </p>
 
-        <div className="home-buttons" id="source-code">
+        <div className="project-buttons" id="source-code">
           <a
             href={project.github}
             target="_blank"
