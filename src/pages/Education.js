@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Education.css"
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -17,16 +18,21 @@ const Education = () => {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title title">
             Indian Institue of Engineering science and Technology
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Shibpur, WB</h4>
+          <h4 className="vertical-timeline-element-subtitle subtitle">
+            Shibpur, WB
+          </h4>
           <h4 className="vertical-timeline-element-subtitle">
             Bachelor's Degree
           </h4>
 
           <p>
-            Electronics and Telecommunication Engineering <b>CGPA: 8.33</b>
+            Electronics and Telecommunication Engineering{" "}
+            <b>
+              CGPA: <span className="grade">8.33</span>
+            </b>
           </p>
         </VerticalTimelineElement>
 
@@ -36,7 +42,7 @@ const Education = () => {
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title title">
             Verzeo Azure Cloud Computing
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Internship</h4>
@@ -49,15 +55,17 @@ const Education = () => {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title title">
             Narayana Junior College
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          <h4 className="vertical-timeline-element-subtitle subtitle">
             Visakhapatnam, AP
           </h4>
           <p>
-            {" "}
-            Intermediate <b>Percentile: 97.4%</b>
+            Intermediate{" "}
+            <b>
+              Percentile: <span className="grade">97.4%</span>
+            </b>
           </p>
         </VerticalTimelineElement>
 
@@ -67,14 +75,17 @@ const Education = () => {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title title">
             Saint Claret E.M High School
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          <h4 className="vertical-timeline-element-subtitle subtitle">
             Narasannapeta, AP
           </h4>
           <p>
-            High School Education <b>CGPA: 10</b>
+            High School Education{" "}
+            <b>
+              CGPA: <span className="grade">10</span>
+            </b>
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
