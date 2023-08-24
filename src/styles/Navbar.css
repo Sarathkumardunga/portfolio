@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Open+Sans&family=Playfair+Display&family=Roboto&family=Varela&display=swap');
+
 .navbar {
   width: 100%;
   height: 100px;
@@ -15,9 +17,9 @@
 
 .navbar a {
   color: white;
-  text-decoration: none;
   margin: 20px;
   font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .toggleButton {

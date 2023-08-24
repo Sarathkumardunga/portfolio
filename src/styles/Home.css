@@ -6,16 +6,22 @@
   background-color: rgba(211, 206, 206, 0.765);
 }
 
-.about {
+.top{
+  display: flex;
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100%;
+  background-color: #6382d0;
+  padding: 4.2rem 0;
+}
+
+.about {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #6382d0;
+  align-items: left;
+  text-align: left;
   color: #f0f0f0;
+  padding-left: 1.5rem;
 }
 
 .about h2 {
@@ -26,13 +32,61 @@
 }
 
 .about .prompt {
-  width: 40%;
+  width: 60%;
   font-size: 30px;
 }
+
 .prompt svg {
   font-size: 60px;
   margin: 5px;
   color: white;
+}
+
+/* styling of buttons */
+.btn{
+  background-color: white;
+  padding: 0.45rem;
+  font-weight: bold;
+  border: 4px solid transparent;
+  transition: 300ms all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover{
+  cursor: pointer;
+  box-shadow: 4px 4px #bdbdba;
+}
+
+.home-buttons{
+    display:flex;
+    gap: 1rem;
+    font-weight: normal;
+    margin-top: 1rem;
+}
+
+#resume{
+    color:white;
+    background-color: rgb(155, 159, 153);
+    width: 8rem;
+}
+
+#connect{
+    color:white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid rgb(140, 221, 100);
+}
+
+.mainpic{
+  align-self: center;
+}
+
+.mainpic img{
+  max-width: 400px;
+  max-height: 3000px;
+  margin-left: 100px;
 }
 
 .skills {
