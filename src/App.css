@@ -4,7 +4,9 @@
 
 :root{
   --primaryColor: #21325e;
+  --secondaryColor: rgb(227, 233, 239);
   --primaryHeadingColor: #E9D35B;
+  --oneLetterColor: rgb(140, 221, 100);
 }
 
 body{
@@ -12,8 +14,8 @@ body{
   margin: 0;
 }
 
-#oneLetter{
-  color: rgb(140, 221, 100);
+.oneLetter{
+  color: var(--oneLetterColor);
 }
 
 a{

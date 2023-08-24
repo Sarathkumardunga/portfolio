@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Open+Sans&family=Playfair+Display&family=Roboto&family=Varela&display=swap');
 
 .experience{
-  background-color: rgb(227, 233, 239);
+  background-color: var(--secondaryColor);
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 }
@@ -15,5 +15,5 @@
 }
 
 .grade{
-  color: rgb(140, 221, 100);
+  color: var(--oneLetterColor) ;
 }

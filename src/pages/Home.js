@@ -13,7 +13,7 @@ const Home = () => {
       <div className="top">
         <div className="about">
           <h2>
-            Hi, My Name is <span id="oneLetter">S</span>arath
+            Hi, My Name is <span class="oneLetter">S</span>arath
           </h2>
           <div className="prompt">
             <p>
@@ -56,7 +56,7 @@ const Home = () => {
 
       <div className="skills">
         <h1>
-          <span id="oneLetter">S</span>kills
+          <span className="oneLetter">S</span>kills
         </h1>
         <ol className="list">
           <li className="item">
