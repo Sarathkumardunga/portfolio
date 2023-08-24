@@ -85,8 +85,9 @@
 
 .mainpic img{
   max-width: 400px;
-  max-height: 3000px;
+  max-height: 300px;
   margin-left: 100px;
+  margin-right: 20px;
 }
 
 .skills {
@@ -117,6 +118,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .about{
+    align-items:center;
+    text-align: center;
+  }
+
   .about h2 {
     font-size: 40px;
   }
@@ -127,14 +133,51 @@
     width: 80%;
   }
 
+  .mainpic{
+    display: none;
+  }
+
   .skills {
     text-align: center;
   }
+
   .list {
     padding: 0;
   }
 
   .skills h2 {
     font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 725px){
+  .about h2{
+    font-size: 38px;
+  }
+
+  .about .prompt{
+    max-width: 60%;
+  }
+
+  .mainpic{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1400px){
+  .about h2 {
+    font-size: 38px;
+  }
+
+  .about .prompt {
+    margin-top: 8px;
+    font-size: 17px;
+    width: 80%;
+  }
+
+  .mainpic img{
+    max-width: 300px;
+    max-height: 350px;
   }
 }
