@@ -28,9 +28,8 @@ const Navbar = () => {
       <div className="nav-content">
         <div
           id="profilepic"
-          style={{ display: (expandNavbar || ["/projects", "/education"].includes(location.pathname))
-            ? "none"
-            : "flex",
+          style={{
+            display: expandNavbar || location.pathname !== "/" ? "none" : "flex",
           }}
         >
           <img src={profilePic} alt="Admin Pic" />
