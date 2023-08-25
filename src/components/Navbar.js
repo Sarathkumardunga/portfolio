@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
+import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import profilePic from "../assets/profilepic.png";
 
 const Navbar = () => {
   const [expandNavbar, setExpandNavbar] = useState(false);
-
   const location = useLocation();
 
   useEffect(() => {
@@ -21,18 +21,39 @@ const Navbar = () => {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          <ReorderIcon />
+          {expandNavbar ? <HighlightOffIcon /> : <ReorderIcon />}
         </button>
       </div>
 
-      <div className='nav-content'>
-        <div id="profilepic">
+      <div className="nav-content">
+        <div
+          id="profilepic"
+          style={{ display: (expandNavbar || ["/projects", "/education"].includes(location.pathname))
+            ? "none"
+            : "flex",
+          }}
+        >
           <img src={profilePic} alt="Admin Pic" />
         </div>
         <div className="links">
-          <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/education">Education</Link>
+          <Link
+            to="/"
+            className={location.pathname === "/" ? "pageActive" : ""}
+          >
+            Home
+          </Link>
+          <Link
+            to="/projects"
+            className={location.pathname === "/projects" ? "pageActive" : ""}
+          >
+            Projects
+          </Link>
+          <Link
+            to="/education"
+            className={location.pathname === "/education" ? "pageActive" : ""}
+          >
+            Education
+          </Link>
         </div>
       </div>
     </div>

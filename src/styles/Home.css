@@ -42,6 +42,11 @@
   color: white;
 }
 
+.prompt svg:hover{
+  transform: scale(1.1);
+  transition: 0.32s;
+}
+
 /* styling of buttons */
 #resume{
     color:white;
@@ -146,6 +151,20 @@
     font-size: 19px;
   }
 
+  .mainpic img{
+    max-width: 300px;
+    max-height: 240px;
+  }
+}
+
+@media only screen and (max-width: 967px){
+  .mainpic img{
+    max-width: 250px;
+    max-height: 200px;
+  }
+}
+
+@media only screen and (max-width: 918px){
   .mainpic{
     display: none;
   }
