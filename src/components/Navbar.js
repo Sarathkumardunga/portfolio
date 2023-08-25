@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
-import profilePic from "../assets/profilepic.png";
+import profilePic from "../assets/profilepic.jpg";
 
 const Navbar = () => {
   const [expandNavbar, setExpandNavbar] = useState(false);

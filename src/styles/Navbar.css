@@ -12,9 +12,9 @@
 #profilepic>img{
   max-height: 90px;
   max-width: 120px;
-  margin-left: 9px;
+  margin-left: 7px;
   margin-top: 2px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .navbar {
@@ -99,6 +99,12 @@
 
   #profilepic{
     margin: 0.8rem 40% 1rem 40%;
+  }
+
+  #profilepic>img{
+    min-width: 95px;
+    min-height: 130px;
+    padding-top: 0.8rem;
   }
 }
 
