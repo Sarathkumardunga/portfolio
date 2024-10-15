@@ -48,7 +48,7 @@ const Home = () => {
             {/*     Buttons   */}
             <div className="home-buttons">
               <a
-                href="https://drive.google.com/file/d/1BOD0ljImvewrOYUHGygh6PCWmAC3cRAy/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1EELFax_Gxq6hv_V8jggqku4X33aUzJuf/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -81,19 +81,19 @@ const Home = () => {
           </h1>
           <ol className="list">
             <li className="item">
-              <h2> Front-End</h2>
+              <h2> Languages</h2>
               <span>
-                ReactJS, Redux, HTML, CSS, Javascript, BootStrap, MaterialUI,
-                Chakra-UI
+              C++, C, SQL, Java, React Js, HTML, CSS, JavaScript, Node.js, JavaFX, PROLOG, Python
               </span>
             </li>
             <li className="item">
-              <h2>Back-End</h2>
-              <span>NodeJS, ExpressJS, MySQL, MongoDB(intermediate)</span>
+              <h2>Tools and Technologies</h2>
+              <span>Azure Cloud Computing, MySql, Git and Github, Postman, Astah, JIRA, JUnit, Taiga</span>
             </li>
             <li className="item">
-              <h2>Languages</h2>
-              <span>C++, C, JavaScript, TypeScript(intermediate)</span>
+              <h2>Relevant Coursework</h2>
+              <span>Advance Data Structures and Algorithms, OOPs, Operating Systems, Foundations of Software
+              Engineering, DBMS, Software Project, Process and Quality Management, Software Agility, Software Design</span>
             </li>
           </ol>
         </div>
