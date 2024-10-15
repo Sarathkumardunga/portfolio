@@ -12,6 +12,30 @@ const Education = () => {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Jan 2024 - Dec 2025"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title title">
+            Arizona State Univerisity
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle subtitle">
+            Tempe, USA
+          </h4>
+          <h4 className="vertical-timeline-element-subtitle">
+            Master of Science
+          </h4>
+
+          <p>
+            Software Engineering{" "}
+            <b>
+              CGPA: <span className="grade">3.89/4.00</span>
+            </b>
+          </p>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2019 - 2023"
@@ -31,7 +55,7 @@ const Education = () => {
           <p>
             Electronics and Telecommunication Engineering{" "}
             <b>
-              CGPA: <span className="grade">8.33</span>
+              CGPA: <span className="grade">8.33/10.0</span>
             </b>
           </p>
         </VerticalTimelineElement>
